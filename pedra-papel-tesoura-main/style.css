@@ -1,0 +1,108 @@
+ul#jogadorEscolha li a:hover, 
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5B0028;  
+} 
+
+img {
+    width: 160px;
+}
+
+li{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins R';
+    src: url(font/Poppins-Regular.ttf);
+}
+
+
+#titulo {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Poppins';   
+}
+
+#nomes {
+    color: white;
+    font-family: 'Poppins R';
+    margin-left: 500px;
+    display: flex;
+}
+
+#computadorNome {
+    margin-left: 600px;
+}
+
+#jogadorNome {
+    margin-left: -200px;
+    
+}
+
+#jogadorEscolha {
+    margin-left: 100px;
+    display: flex;
+}
+
+#computadorEscolha {
+    margin-left: 850px;
+    display: flex;
+    margin-top: -225px;
+
+}
+
+#pontos {
+    color: white;
+    font-family: 'Poppins R';
+    display: flex;
+}
+
+#jogadorPontos {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 345px;
+
+}
+
+#computadorPontos {
+    margin-left: 590px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 750px ;
+}
+
+#mensagem {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Poppins R';
+}
+
+
+
+
+
+
+
+
